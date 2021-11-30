@@ -7,11 +7,11 @@ import numpy as np
 
 
 # Variablen
-workDir = 'C:\\Users\\Admin\\GIS_Projekte\\'  # hier wird alles abgelegt
-inDirectory = 'C:\\Users\\Admin\\GIS_Projekte\\Schwarzwald\\'  # hier sind die Tifs
+workDir = '.'  # hier wird alles abgelegt
+inDirectory = './files'  # hier sind die Tifs
 fileExt = 'tif'                     # Dateierweiterung der Eingangsdateien
-outName = 'schwarzwald.tif'         # Name der Ausgabedatei
-colRampFile = 'schwarzwald.txt'     # diese Datei enthält die Farbpallete
+outName = 'infile.tif'         # Name der Ausgabedatei
+colRampFile = 'colramp.txt'     # diese Datei enthält die Farbpallette
 stepCount = 1
 
 
